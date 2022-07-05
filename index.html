@@ -31,7 +31,7 @@
       >
         <div class="flex justify-between items-center md:justify-center">
           <a href="#accueil">
-            <img src="./ressources/3PS.png" alt="3PS logo" class="w-14" />
+            <img src="./ressources/3PS.webp" alt="3PS logo" class="w-14" />
           </a>
 
           <button
@@ -101,9 +101,9 @@
         id="accueil"
       >
         <img
-          src="./ressources/Logo-3PS.png"
+          src="./ressources/Logo-3PS.webp"
           alt="Logo 3ps"
-          class="px-5 max-w-[350px] hover:scale-110 transition-transform duration-500 ease-in-out sm:m-w[600px] md:max-w-[800px]"
+          class="px-5 max-w-[350px] hover:scale-110 transition-transform duration-500 ease-in-out sm:max-w[600px] md:max-w-[800px]"
         />
 
         <div
@@ -136,6 +136,7 @@
       <div class="absolute bottom-4 left-1/2 -translate-x-1/2 md:bottom-10">
         <a
           href="#services"
+          aria-label="Flêche vers le bas"
           class="animate-bounce bg-white p-2 w-12 h-12 ring-1 ring-slate-900/5 shadow-lg rounded-full flex items-center justify-center sm:w-16 sm:h-16"
         >
           <svg
@@ -167,7 +168,7 @@
           >
             <div>
               <img
-                src="./ressources/visio2.jpg"
+                src="./ressources/visio2.webp"
                 alt="Illustration d'une visio conférence"
                 class="w-[600px]"
               />
@@ -262,7 +263,7 @@
             >
               <div class="mb-5">
                 <img
-                  src="./ressources/online.jpg"
+                  src="./ressources/online.webp"
                   alt="online image"
                   class="w-40 h-40 object-cover mx-auto rounded-full"
                 />
@@ -287,7 +288,7 @@
             >
               <div class="mb-5">
                 <img
-                  src="./ressources/preparation.jpg"
+                  src="./ressources/preparation.webp"
                   alt="preparation image"
                   class="w-40 h-40 object-cover mx-auto rounded-full"
                 />
@@ -313,7 +314,7 @@
             >
               <div class="mb-5">
                 <img
-                  src="./ressources/book.jpg"
+                  src="./ressources/book.webp"
                   alt="book image"
                   class="w-40 h-40 object-cover mx-auto rounded-full"
                 />
@@ -963,25 +964,6 @@
 
     <!-- #region SCRIPT -->
     <script src="app.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        slidesPerGroup: 3,
-        loop: true,
-        loopFillGroupWithBlank: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
     <!-- #endregion -->
   </body>
 </html>
